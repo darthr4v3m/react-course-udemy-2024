@@ -1,8 +1,8 @@
-import ProjectsSidebar from "../ProjectSidebarComponent";
+import ProjectsSidebar from "./components/ProjectSidebarComponent";
 
 function App() {
   return (
-    <main>
+    <main className="h-screen my-8">
       <ProjectsSidebar />
     </main>
   );
